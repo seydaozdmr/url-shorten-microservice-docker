@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d4ad83-382d-49ea-8459-4563b857bd8f" name="Changes" comment="shorten Link,Service,Config created">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/url-shorten-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/url-shorten-base/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="42d4ad83-382d-49ea-8459-4563b857bd8f" name="Changes" comment="h2 db usage by multiple apps" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/url-shorten-base" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/url-shorten-service" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,10 +40,17 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.UrlShortenBaseApplication">
     <configuration name="UrlShortenBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="url-shorten-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.url.shorten.urlshortenbase.UrlShortenBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlShortenServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="url-shorten-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.urlshortenservice.UrlShortenServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663054431935</updated>
-      <workItem from="1663054433189" duration="3683000" />
+      <workItem from="1663054433189" duration="4571000" />
     </task>
     <task id="LOCAL-00001" summary="update creation">
       <created>1663056024308</created>
@@ -84,7 +87,35 @@
       <option name="project" value="LOCAL" />
       <updated>1663056762530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="url shorten service init">
+      <created>1663061331788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663061331788</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pom files fixed">
+      <created>1663061507907</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663061507907</updated>
+    </task>
+    <task id="LOCAL-00006" summary="shorten service,entity,repository created">
+      <created>1663061951305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663061951305</updated>
+    </task>
+    <task id="LOCAL-00007" summary="h2 db usage by multiple apps">
+      <created>1663062144106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663062144106</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +136,10 @@
     <MESSAGE value="update creation" />
     <MESSAGE value="url-shorten-base-module init" />
     <MESSAGE value="shorten Link,Service,Config created" />
-    <option name="LAST_COMMIT_MESSAGE" value="shorten Link,Service,Config created" />
+    <MESSAGE value="url shorten service init" />
+    <MESSAGE value="pom files fixed" />
+    <MESSAGE value="shorten service,entity,repository created" />
+    <MESSAGE value="h2 db usage by multiple apps" />
+    <option name="LAST_COMMIT_MESSAGE" value="h2 db usage by multiple apps" />
   </component>
 </project>
