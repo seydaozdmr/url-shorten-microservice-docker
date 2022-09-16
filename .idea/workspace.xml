@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d4ad83-382d-49ea-8459-4563b857bd8f" name="Changes" comment="message service init">
-      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/org/url/shorten/messageservice/model/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/org/url/shorten/messageservice/repository/LinkRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/org/url/shorten/messageservice/service/CounterService.java" afterDir="false" />
+    <list default="true" id="42d4ad83-382d-49ea-8459-4563b857bd8f" name="Changes" comment="counter messaging service in base created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-service/src/main/java/org/url/shorten/messageservice/MessageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-service/src/main/java/org/url/shorten/messageservice/MessageServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-service/src/main/java/org/url/shorten/messageservice/repository/LinkRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-service/src/main/java/org/url/shorten/messageservice/repository/LinkRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url-shorten-base/src/main/java/org/url/shorten/urlshortenbase/controller/UrlShorterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/url-shorten-base/src/main/java/org/url/shorten/urlshortenbase/controller/UrlShorterController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,14 @@
     "spring.configuration.checksum": "f1fc4a31dfcced9652f83dde106ecf21"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MavenRunConfiguration" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.MessageServiceApplication">
     <configuration name="MessageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="message-service" />
@@ -90,7 +99,7 @@
       <workItem from="1663054433189" duration="9205000" />
       <workItem from="1663134646150" duration="601000" />
       <workItem from="1663139028080" duration="1000" />
-      <workItem from="1663331496177" duration="2973000" />
+      <workItem from="1663331496177" duration="4522000" />
     </task>
     <task id="LOCAL-00001" summary="update creation">
       <created>1663056024308</created>
@@ -218,7 +227,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663334149278</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="message service created entity,repository,service, rest controller">
+      <created>1663334782000</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663334782000</updated>
+    </task>
+    <task id="LOCAL-00020" summary="messaging properties created">
+      <created>1663335947444</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663335947444</updated>
+    </task>
+    <task id="LOCAL-00021" summary="counter messaging service in base created">
+      <created>1663335978924</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1663335978924</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +284,9 @@
     <MESSAGE value="expand endpoint in controller" />
     <MESSAGE value="application properties setted" />
     <MESSAGE value="message service init" />
-    <option name="LAST_COMMIT_MESSAGE" value="message service init" />
+    <MESSAGE value="message service created entity,repository,service, rest controller" />
+    <MESSAGE value="messaging properties created" />
+    <MESSAGE value="counter messaging service in base created" />
+    <option name="LAST_COMMIT_MESSAGE" value="counter messaging service in base created" />
   </component>
 </project>
